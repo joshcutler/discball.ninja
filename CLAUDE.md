@@ -30,7 +30,7 @@ Shared layout (`Root.tsx`): Sticky nav with DISCBALL logo + mobile hamburger men
 - Custom layouts in `_layouts/` override Minima theme defaults
 - Custom CSS in `assets/css/`
 - Site configuration lives in `_config.yml`
-- Custom domain (`diskball.ninja`) configured via CNAME file
+- Custom domain (`discball.ninja`) configured via CNAME file
 - Deployment is automatic via GitHub Pages on push to main
 
 ## Writing Style
