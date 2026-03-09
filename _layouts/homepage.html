@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ site.title }}</title>
+  <meta name="description" content="{{ site.description }}">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  {% feed_meta %}
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="nav">
+    <div class="nav-inner">
+      <a href="{{ '/' | relative_url }}" class="nav-logo">
+        <div class="nav-logo-icon">
+          <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M6 12c0-1.68.68-3.2 1.76-4.24M9.5 12a2.5 2.5 0 1 0 5 0 2.5 2.5 0 0 0-5 0"/><path d="M16.24 7.76A6 6 0 0 1 18 12"/><path d="m2 2 20 20"/></svg>
+        </div>
+        <span class="nav-logo-text">DISC<span>BALL</span></span>
+      </a>
+
+      <ul class="nav-links">
+        <li><a href="{{ '/' | relative_url }}" class="active">Home</a></li>
+        <li><a href="{{ '/the-rules' | relative_url }}">Rules</a></li>
+        <li><a href="{{ '/the-ethos' | relative_url }}">Ethos</a></li>
+        <li><a href="{{ '/faq' | relative_url }}">FAQ</a></li>
+      </ul>
+
+      <button class="nav-mobile-toggle" onclick="document.getElementById('mobile-menu').classList.toggle('open')" aria-label="Toggle menu">
+        <svg viewBox="0 0 24 24"><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="18" y2="18"/></svg>
+      </button>
+    </div>
+
+    <div id="mobile-menu" class="nav-mobile-menu">
+      <a href="{{ '/' | relative_url }}" class="active">Home</a>
+      <a href="{{ '/the-rules' | relative_url }}">Rules</a>
+      <a href="{{ '/the-ethos' | relative_url }}">Ethos</a>
+      <a href="{{ '/faq' | relative_url }}">FAQ</a>
+    </div>
+  </nav>
+
+  <main>
+    {{ content }}
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-logo">
+      <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M6 12c0-1.68.68-3.2 1.76-4.24M9.5 12a2.5 2.5 0 1 0 5 0 2.5 2.5 0 0 0-5 0"/><path d="M16.24 7.76A6 6 0 0 1 18 12"/><path d="m2 2 20 20"/></svg>
+      <span>DISCBALL</span>
+    </div>
+    <p class="footer-tagline">A warrior's game. Play hard, play safe, play Discball.</p>
+    <p class="footer-copyright">&copy; 2026 Intergalactic Discball Governing Body. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
