@@ -33,9 +33,15 @@ Shared layout (`Root.tsx`): Sticky nav with DISCBALL logo + mobile hamburger men
 - Custom domain (`diskball.ninja`) configured via CNAME file
 - Deployment is automatic via GitHub Pages on push to main
 
+## Writing Style
+- **No em-dashes.** Use periods, commas, or rewrite the sentence instead.
+- **Lean into the pain humor.** Bruises are badges of honor. Reference getting hurt, welts, bruises, and physical consequences in a fun way. Examples: "The heavier the disc, the better the bruises." / "It hurts more than you'd think." / "The uglier the throw, the uglier the welt."
+- **Tone is bold, direct, and irreverent.** Short punchy sentences. No corporate-speak. The game is violent fun and the copy should reflect that.
+- **Warrior Spirit** is the core philosophy and should be referenced naturally throughout content, not just in its own section.
+
 ## Discball Rules (Canonical Source of Truth)
 
-**NOTE:** The current rules page on the site is WRONG. Use the rules below as the authoritative source.
+The rules page on the site has been updated to match these. Use the rules below as the authoritative source.
 
 ### What Is Discball?
 Dodgeball with a frisbee. Free-for-all (no teams), individual elimination. 3-4 players is ideal; larger groups should subdivide into multiple games.
