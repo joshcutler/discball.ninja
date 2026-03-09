@@ -652,6 +652,7 @@ img {
   font-size: 1.875rem;
   font-weight: 900;
   color: #111827;
+  margin-bottom: 0;
 }
 
 /* Card stack */
@@ -1167,5 +1168,9 @@ img {
 
   .ready-grid {
     grid-template-columns: 1fr;
+  }
+
+  .card-stack {
+    padding-left: 0;
   }
 }
