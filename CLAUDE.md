@@ -67,6 +67,7 @@ Be the last player standing (fewer than 3 outs) after all other players have bee
 
 ### Throwing
 - You must stand **within your circle** when throwing.
+- **The recipient must start in the center of their circle** until the disc is released.
 - Any throw style is allowed — backhand, forehand, hammer, whatever works. Goofy/hard-to-catch throws are encouraged.
 - **Named throw: Buzzsaw** — a straight overhead vertical throw that drops fast (like a sinker) and can be thrown very hard.
 - A player may **never decline to throw** when it is their turn.
